@@ -28,6 +28,13 @@ dependencies {
 //	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+	implementation("net.datafaker:datafaker:2.1.0")
+
+
+
+	implementation("io.github.serpro69:kotlin-faker:1.6.0")
+
+
 }
 
 tasks.withType<KotlinCompile> {

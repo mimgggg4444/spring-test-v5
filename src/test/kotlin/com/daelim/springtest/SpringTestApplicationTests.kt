@@ -8,6 +8,10 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 
+import io.github.serpro69.kfaker.Faker
+// 깃 라이브러리 가져와서 사용
+
+
 @SpringBootTest
 class SpringTestApplicationTests {
 
@@ -67,5 +71,8 @@ class SpringTestApplicationTests {
 		val endTime = System.currentTimeMillis()
 		println("Total time with Coroutines: ${endTime - startTime}ms")
 	}
+
+
+
 
 }
